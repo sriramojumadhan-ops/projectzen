@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fetch Users</title>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<input type="checkbox" id="menu-toggle">
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">My Website</div>
+
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="update.html">Update</a></li>
+            <li><a href="fetching.html">Fetch</a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </ul>
+
+        <!-- hamburger button -->
+        <label for="menu-toggle" class="menu-btn">☰</label>
+    </nav>
+
+    <!-- SIDE MENU (mobile) -->
+    <div class="side-menu">
+        <h3>Menu</h3>
+
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="registration.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="update.html">Update</a></li>
+            <li><a href="fetching.html">Fetch</a></li>
+            <li><a href="delete.html">Delete</a></li>
+        </ul>
+    </div>
+
+<form action="FetchController" method="post" class="fetch-form">
+    <input type="submit" value="Fetch Data" class="btn">
+</form>
+
+</body>
+</html>
